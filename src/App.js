@@ -1,11 +1,14 @@
-import Person from "./Person";
-import Data from "./Data";
+import Navbar from "./components/navbar/Navbar";
+import { BrowserRouter as Main, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Person data={Data} />
-    </div>
+    <Main>
+      <Navbar />
+      <Routes>
+        <Route />
+      </Routes>
+    </Main>
   );
 }
 

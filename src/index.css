@@ -31,18 +31,6 @@ button {
   transition: 1s all;
   cursor: pointer;
 }
-button:hover {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(255, 0, 241, 1) 0%,
-    rgba(255, 0, 241, 1) 17%,
-    rgba(255, 0, 215, 1) 29%,
-    rgba(255, 0, 151, 1) 59%,
-    rgb(255, 0, 238) 100%
-  );
-}
 
 .card {
   display: flex;
