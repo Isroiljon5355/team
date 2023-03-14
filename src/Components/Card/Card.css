@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: rgb(3, 3, 122);
+    width: 100%;
+    height: 700px;
+    color: white;
+}
+.item {
+    width: 305px;
+    height: 350px;
+    border-radius: 8px;
+    padding: 10px;
+    opacity: 1.0;
+    background-color: #eeeeee8a;
+    position: relative;
+}
+section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.item img {
+    padding-left: 55px;
+}
+
+.item img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.price {
+    width: 64px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+    background: #eeeeee8a;
+    border-radius: 8px;
+}
+
+.priceIcon i {
+    float: right;
+    font-size: 1.5rem;
+}
+
+.Text {
+    width: 305px;
+    height: 129px;
+    background-color: #1C1E25;
+    position: absolute;
+    top: 220px;
+    left: 0px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.Text h3 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 22px;
+    color: white;
+}
+
+.Text h3:hover {
+    cursor: pointer;
+    color: #ff000080;
+    transition: all 0.5s;
+}
+
+.TextPrice {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.TextPrice p {
+    color: #ff000080;
+}
+
+.TextPrice del {
+    padding-left: 25px;
+    color: white;
+}
+.item:hover .price{
+    background-color: red;
+    transition: all 0.5s;
+}
+.item:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.item:hover .priceIcon i{
+    color: white;
+    background-color: pink;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.btn{
+    width: 110px;
+    height: 35px;
+    margin-left: 110px;
+    margin-top: 10px;
+    color: white;
+    background-color: #1C1E25;
+    border: 1px solid white;
+}
+.btn:hover{
+    background: linear-gradient(to right,
+        red,
+        blue,
+        violet);
+    cursor: pointer;
+}
+.Sentenses{
+    text-align: center;
+    background-color: rgb(3, 3, 122);
+    color: white;
+}
+
+.Sentenses h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+.Sentenses p{
+    font-size: 20px;
+    line-height: 30px;
+}
