@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export const data = [
     {
         id: 1,
@@ -45,3 +46,37 @@ export const data = [
     },
 
 ]
+=======
+const data = [
+  {
+    id: 1,
+    name: "ibrohim",
+    surname: "abdurayimov",
+    img: "https://unsplash.com/photos/kf089lAIXpo",
+    button: <button>bos</button>,
+  },
+  {
+    id: 2,
+    name: "ibrohim",
+    surname: "abdurayimov",
+    img: "https://unsplash.com/photos/kf089lAIXpo",
+    button: <button>bos</button>,
+  },
+
+  {
+    id: 3,
+    name: "ibrohim",
+    surname: "abdurayimov",
+    img: "https://unsplash.com/photos/kf089lAIXpo",
+    button: <button>bos</button>,
+  },
+  {
+    id: 4,
+    name: "ibrohim",
+    surname: "abdurayimov",
+    img: "https://unsplash.com/photos/kf089lAIXpo",
+    button: <button>bos</button>,
+  },
+];
+export default data;
+>>>>>>> dd2b4bab53239fce650f53b04f1ab2fc1828346a
