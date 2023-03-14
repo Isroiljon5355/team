@@ -1,9 +1,14 @@
 import Cards from "./components/cards/Cards";
+import data from "./data";
+import DataniPropsi from "./DataniPropsi";
+import Form from "./Form";
 
 function App() {
   return (
     <div className="App">
       <Cards />
+      <DataniPropsi data={data} />
+      <Form />
     </div>
   );
 }
