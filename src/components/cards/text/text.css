@@ -1,0 +1,47 @@
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box h3::before {
+  padding: 0px 20px;
+  content: url("https://hostim-html.themetags.com/assets/img/shapes/gm-title-left.png");
+}
+
+.box h3::after {
+  content: url("https://hostim-html.themetags.com/assets/img/shapes/gm-title-right.png");
+  padding: 0px 20px;
+}
+
+.box {
+  padding: 0px 20px;
+  width: 46%;
+}
+
+.box p {
+  font-size: 23px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.box h3 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 42px;
+  padding: 0px 30px;
+}
+
+@media (max-width: 500px) {
+  .box {
+    width: 100%;
+    padding: 0;
+  }
+  .box h3 {
+    font-size: 25px;
+    padding: 0;
+  }
+  .box p {
+    font-size: 16px;
+  }
+}
