@@ -14,7 +14,7 @@ function Cards() {
                         <div className='row'>
                             <img src={item.little} alt="" />
                             <p>{item.text}</p>
-                            <div className='bottext' data-aos="fade-up">
+                            <div className='bottext'>
                                 <a className='bottomhover' href="#">{item.href}</a>
                                 <a className='bottomhover' href="#">{item.href2}</a>
                                 <a className='bottomhover' href="#">{item.href3}</a>
