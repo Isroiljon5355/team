@@ -1,12 +1,9 @@
-import data from "./data";
-import Person from "./Person";
 function App() {
   return (
-    <div className="App">
-      <Person data={data} />
-    </div>
+    <>
+      <h1 className=" text-red-900 text-center">salom</h1>
+    </>
   );
 }
 
 export default App;
-// aaaaaaargghtdtu64120
