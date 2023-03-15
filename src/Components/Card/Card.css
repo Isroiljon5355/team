@@ -137,3 +137,16 @@ section{
         grid-template-columns: auto auto auto;
     }
 }
+@media only screen and (max-width: 660px){
+    section {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    section {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
