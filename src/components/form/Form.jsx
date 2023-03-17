@@ -15,11 +15,11 @@ function Form() {
           <h1 className="text-[#fff] text-5xl font-bold leading-loose ">
             Know About Updates
           </h1>
-          <div className="flex flex-wrap items-end ">
+          <div className="flex flex-wrap items-end mb-20 ">
             <h3 className="text-[#fff]  text-3xl font-medium inline">
               Our Top Clients
             </h3>
-            <p className=" left-64 border-y-4 w-1/4 absolute border-red-600	 "></p>
+            <p className=" left-64 border-y-4 border-fuchsia-700 w-96 absolute z-10"></p>
           </div>
           <ul className="grid grid-cols-3 justify-between gap-5 mt-5 w-full">
             <li className="bg-[#26262c] px-10 py-4 ">
@@ -42,7 +42,7 @@ function Form() {
             </li>
           </ul>
           <div className="text-white text-xl mt-7 m-8 flex flex-wrap items-center hover:w-52 cursor-pointer  ">
-            <p className="p-5 w-5 rounded-3xl z-1 bg-red-600 border-solid border-2 hover:px-16 duration-700 cursor-pointer	"></p>
+            <p className="p-5 w-5 rounded-3xl z-1 decoration-clone  bg-gradient-to-r from-red-600 to-indigo-500 border-solid border-2 hover:px-16 duration-700 cursor-pointer	"></p>
             <h1 className="absolute 	">VIEW ALL 200+ CLIENTS </h1>
           </div>
         </div>
@@ -159,7 +159,7 @@ function Form() {
             ></textarea>
           </div>
           <div>
-            <button className="hover:shadow-form rounded-md bg-[#6A64F1] py-5 px-24 text-base font-semibold text-white outline-none">
+            <button className="shadow-form rounded-md bg-gradient-to-r from-red-600 to-indigo-500 hover:bg-gradient-to-l to-indigo-500 from-red-600 py-5 px-24 text-base font-semibold text-white outline-none">
               Submit
             </button>
           </div>
