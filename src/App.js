@@ -1,7 +1,9 @@
+import Project from "./pro/Project";
 function App() {
   return (
     <>
-      <h1 className=" text-red-900 text-center">salom</h1>
+    <Project/>
+      <h1 className=" text-red-900 text-center bg-slate-400">salom</h1>
     </>
   );
 }
