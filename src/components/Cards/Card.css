@@ -1,0 +1,16 @@
+.item:hover .price {
+  background-color: pink;
+  transition: all 0.5s;
+}
+.item:hover img {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.item:hover .icon {
+  color: white;
+  background-color: pink;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: block;
+}
