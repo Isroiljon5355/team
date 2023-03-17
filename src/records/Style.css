@@ -6,7 +6,8 @@
 
 body {
     font-family: sans-serif;
-    background-color: #1E1E2C;
+    background-color: #1e1e2c;
+
 }
 
 .img img {
@@ -14,15 +15,16 @@ body {
     float: right;
     margin-top: -150px;
     margin-right: 70px;
+    position: relative;
 }
 
 .text p {
     color: #fff;
     font-weight: bold;
     font-size: 65px;
-    margin-top: 15%;
+    margin-top: 14%;
     margin-left: 7%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     line-height: 80px;
 }
 
@@ -36,9 +38,13 @@ body {
 }
 
 .hundredtwenty {
-    width: 200px;
-    height: 60px;
-    border: 1px solid red;
+    width: 250px;
+    height: 80px;
+    float: right;
+    top: 10%;
+    left: 80%;
+    position: absolute;
+    border-radius: 10px;
     background-color: #25262E;
 }
 
@@ -51,10 +57,17 @@ body {
     margin-left: 7%;
     margin-top: 40px;
     border-radius: 7px;
-    background-image: linear-gradient(to right, #D65590, blue);
+    background-image: linear-gradient(to right, #9534A7, blue);
 }
 
 .button button:hover {
-    transition: 3.0s;
-    background-image: linear-gradient(to right, blue, #D65590);
+    transition: all 0.03s;
+    background-image: linear-gradient(to right, blue, #d65590);
+}
+
+.minibox img{
+    width: 30px;
+}
+
+.minibox h1 {
 }
