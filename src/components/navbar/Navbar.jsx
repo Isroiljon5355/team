@@ -4,16 +4,12 @@ import Logo from "../../images/logo-white.png";
 function Navbar() {
   return (
     <div>
-      <script
-        src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
-        defer
-      ></script>
       <div className="min-h-screen ">
         <div className="antialiased bg-gray-200 dark-mode:bg-gray-900">
           <div className=" text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800 ">
             <div
               x-data="{ open: true }"
-              className="flex flex-col px-5 mx-auto md:items-center md:justify-between md:flex-row  bg-[#292937]"
+              className="flex flex-col sm:px-40 lg:py-1 mx-auto md:items-center md:justify-between md:flex-row  bg-[#292937]"
             >
               <div className="flex items-center justify-between p-4 ">
                 <img src={Logo} alt="" />
@@ -57,10 +53,11 @@ function Navbar() {
                 >
                   Contact
                 </a>
-                <button className="  hidden sm:block sm: relative items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                  <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                    Get Quote
-                  </span>
+                <button
+                  type="button"
+                  class=" hover:bg-white hover:border-0 hover:text-red-500 hover:font-medium ml-10 inline-block bg-red-500 rounded bg-danger px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#dc4c64] transition duration-150 ease-in-out hover:bg-danger-600 hover:shadow-[0_8px_9px_-4px_rgba(220,76,100,0.3),0_4px_18px_0_rgba(220,76,100,0.2)] focus:bg-danger-600 focus:shadow-[0_8px_9px_-4px_rgba(220,76,100,0.3),0_4px_18px_0_rgba(220,76,100,0.2)] focus:outline-none focus:ring-0 active:bg-danger-700 active:shadow-[0_8px_9px_-4px_rgba(220,76,100,0.3),0_4px_18px_0_rgba(220,76,100,0.2)]"
+                >
+                  Get Quote
                 </button>
               </nav>
             </div>
