@@ -13,7 +13,7 @@ function Navbar() {
           <div class=" text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800 ">
             <div
               x-data="{ open: true }"
-              class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8 bg-[#292937]"
+              class="flex flex-col px-40 mx-auto md:items-center md:justify-between md:flex-row  bg-[#292937]"
             >
               <div class="flex items-center justify-between p-4 ">
                 <img src={Logo} alt="" />
