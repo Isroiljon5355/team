@@ -9,6 +9,7 @@ function App() {
       <Cards />
       <DataniPropsi data={data} />
       <Form />
+      <h1 className=" text-red-900 text-center">salom</h1>
     </div>
   );
 }
