@@ -11,7 +11,7 @@ import { Autoplay, Pagination } from "swiper";
 
 function Card() {
   return (
-    <div>
+    <>
       <div className="text-center text-white pt-10 bg-slate-800 ">
         <h1 className="text-3xl font-bold">Gaming Product Corner</h1>
         <p className="leading-6">
@@ -19,18 +19,18 @@ function Card() {
           known <br /> issue t feels at home on the head-up skin strategic.
         </p>
       </div>
-      <section className="bg-slate-800 w-[100%] h-[650px] grid grid-cols-4">
-        <Swiper
-          pagination={{
-            clickable: true,
-          }}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          modules={[Autoplay, Pagination]}
-          className="mySwipper"
-        >
+      <Swiper
+        pagination={{
+          clickable: true,
+        }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay, Pagination]}
+        className="mySwipper"
+      >
+        <section className="bg-slate-800 w-[100%] h-[650px] grid grid-cols-4">
           {data.map((item) => {
             return (
               <SwiperSlide key={item}>
@@ -68,9 +68,9 @@ function Card() {
               </SwiperSlide>
             );
           })}
-        </Swiper>
-      </section>
-    </div>
+        </section>
+      </Swiper>
+    </>
   );
 }
 
