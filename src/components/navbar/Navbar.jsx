@@ -40,7 +40,7 @@ function Navbar() {
                   Blog
                 </a>
                 <a
-                  class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 text-white hover:duration-500 hover:text-[#F16262] focus:outline-none focus:shadow-outline"
+                  class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 text-white hover:duration-500 hover:text-[#F16262] "
                   href="#"
                 >
                   Portfolio
