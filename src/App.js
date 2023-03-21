@@ -1,7 +1,13 @@
 import React from "react";
+import Navbar from "./components/navbar/Navbar";
+import { BrowserRouter as Main, Route, Routes } from "react-router-dom";
 
-function App() {
-  return <div>App</div>;
+export default function App() {
+  return (
+    <Main>
+      <Routes>
+        <Route path="/" element={<Navbar />} />
+      </Routes>
+    </Main>
+  );
 }
-
-export default App;
