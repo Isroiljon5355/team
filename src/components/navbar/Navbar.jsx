@@ -18,17 +18,28 @@ export default function Navbar() {
           <div className="dropdown">
             <Link>Home</Link>
             <div class="dropdown-content">
-              <p>Hello World!</p>
-              <p>Hello World!</p>
-              <p>Hello World!</p>
-              <p>Hello World!</p>
-              <p>Hello World!</p>
-              <p>Hello World!</p>
+              <p>Web Hostim</p>
+              <p>Web Hostim</p>
+              <p>Web Hostim</p>
+              <p>Web Hostim</p>
+              <p>Web Hostim</p>
+              <p>Web Hostim</p>
             </div>
           </div>
           <Link>About</Link>
+          <div className="dropdown">
+            <Link>Hosting</Link>
+            <div class="dropdown-content">
+              <p>Web Hostim</p>
+              <p>Web Hostim</p>
+              <p>Web Hostim</p>
+              <p>Web Hostim</p>
+              <p>Web Hostim</p>
+              <p>Web Hostim</p>
+            </div>
+          </div>
           <Link>Domain</Link>
-          <Link>Hosting</Link>
+
           <Link>Pages</Link>
           <button class="btn-hover color-7">Get Quote</button>
         </ul>
