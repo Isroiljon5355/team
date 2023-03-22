@@ -1,6 +1,6 @@
 import React from "react";
-import "./Style.css";
 import add from "./img/sss.png";
+import "./Style.css";
 
 function Records() {
   return (

@@ -14,12 +14,36 @@ function Hundredtwenty() {
   }
 
   return (
-    <div className="minibox">
-      <h1 className="hundredtwenty" style={{ color: "#fff", padding: "10px"}}>
-        <img src={img} alt="" />
+    <div
+      className="minibox"
+      style={{ marginTop: "-35%" }}
+    >
+      <img
+        src={img}
+        alt=""
+        style={{
+          float: "right",
+          marginTop: "-550px",
+          width: "40px",
+          // marginLeft: "70%",
+          border: "1px solid red",
+        }}
+      />
+      <h1
+        className="hundredtwenty"
+        style={{
+          color: "#fff",
+          padding: "10px",
+          paddingLeft: "70px",
+          fontSize: "20px",
+          fontWeight: "bold",
+        }}
+      >
         {count}
         {"K"}
-        <p style={{ fontSize: "17px" }}>Satisfaction Users</p>
+        <p style={{ fontSize: "19px", fontWeight: "bold" }}>
+          Satisfaction Users
+        </p>
       </h1>
     </div>
   );
