@@ -6,6 +6,7 @@
   transform: scale(1.1);
   transition: all 0.5s;
 }
+
 .item:hover .icon {
   color: white;
   background-color: pink;
@@ -13,4 +14,19 @@
   height: 25px;
   border-radius: 50%;
   display: block;
+  transition: all 0.5s;
+}
+
+@media only screen and (max-width: 1100px) {
+  .responsive {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid red;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .responsive {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 }

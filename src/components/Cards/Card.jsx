@@ -20,8 +20,11 @@ function Card() {
         </p>
       </div>
       <Swiper
+        slidesPerView={4}
+        spaceBetween={0}
+        loop
         pagination={{
-          clickable: true,
+          clickable: false,
         }}
         autoplay={{
           delay: 2500,
@@ -30,22 +33,24 @@ function Card() {
         modules={[Autoplay, Pagination]}
         className="mySwipper"
       >
-        <section className="bg-slate-800 w-[100%] h-[650px] grid grid-cols-4">
-          {data.map((item) => {
-            return (
-              <SwiperSlide key={item}>
+        {data.map((item) => {
+          return (
+            <SwiperSlide key={item}>
+              <section className="responsive bg-slate-800 w-[100%]  h-[650px]">
                 <div className="mt-8">
-                  <div className="item w-[300px] h-[350px] drop-shadow-md ">
-                    <div className=" w-[300px] h-[240px] bg-zinc-600 p-2 rounded-t-lg">
+                  <div className="item w-[300px] h-[380px] drop-shadow-md ">
+                    <div className=" w-[300px] h-[280px] bg-zinc-600 p-21 rounded-t-lg">
                       <p className="price w-[65px] h-[15] bg-zinc-400 shadow-lg shadow-zinc-500/50 hover:bg-red-500 rounded-sm">
                         10% off
                       </p>
-                      <img
-                        className="mx-auto hover:scale-110 hover:cursor-pointer"
-                        src={item.Image}
-                        alt=""
-                      />
-                      <AiOutlineHeart className="icon float-right text-2xl hidden" />
+                      <div>
+                        <img
+                          className="hover:cursor-pointer "
+                          src={item.Image}
+                          alt=""
+                        />
+                      </div>
+                      <AiOutlineHeart className="icon float-right text-2xl hidden duration-700" />
                     </div>
                     <div className="w-[100%] h-[130px] bg-zinc-900 rounded-b-lg">
                       <p className="text-center text-xl text-white pt-1 hover:cursor-pointer hover:text-red-600 hover:ease-in-out duration-500">
@@ -59,16 +64,16 @@ function Card() {
                           {item.text.del}
                         </del>
                       </div>
-                      <button className="h-12 w-[150px] ml-[68px] mt-3 rounded-sm text-white border-solid border-2 border-white hover:bg-gradient-to-r from-purple-500 to-blue-900  hover:ease-in-out duration-500 hover:border-none">
+                      <button className="h-12 w-[150px] ml-[6px] mt-3 rounded-sm text-white border-solid border-2 border-white hover:bg-gradient-to-r from-purple-500 to-blue-900  hover:ease-in-out duration-500 hover:border-none">
                         Add to Cart
                       </button>
                     </div>
                   </div>
                 </div>
-              </SwiperSlide>
-            );
-          })}
-        </section>
+              </section>
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </>
   );
