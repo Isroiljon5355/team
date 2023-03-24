@@ -57,7 +57,7 @@ function Footer() {
           </a>
         </li>
       </div>
-      <div className="mt-4  ">
+      <div className="mt-4 pr-12 ">
         <h1 className="text-[#fff] font-bold text-[18px]">Quick Links</h1>
 
         <hr className="w-12 h-1 text-orange-300 mt-2 " />
@@ -93,33 +93,40 @@ function Footer() {
         <hr className="w-12 h-1 text-orange-300 mt-2 " />
         <div className="input flex border-white w-[350px] h-[55px] mt-5 ">
           <input
-            className="item w-[340px] h-[55px] mt-2 outline-none border-none  "
+            className="item w-[340px]  h-[55px] mt-2 outline-none border-none  text-[white]"
             type="text"
             placeholder="Type Your Mail"
           />
-          <button className="w-[100px] h-[46px] mr-2 mt-4 rounded-[5px] bg-gradient-to-r from-purple-500 to-pink-500 w-[30px] h-[30px]">
+          <button className="w-[100px] h-[40px] text-[white] p-1 pl-6 mt-4 pr-12 rounded-[5px] bg-gradient-to-r from-purple-500 to-pink-500 ">
             Subscribe
           </button>
         </div>
         <p className="text-[white] mt-8">
           We Accepted <span className="text-[blue]">_____</span>
         </p>
-        <div className="mt-6 flex gap-4">
+        <div className="mt-6 flex gap-2">
           <img
-            className="border-red-700 w-[80px] h-[40px] "
+            style={{ border: "1px solid red" }}
+            className=" w-[72px] h-[30px] "
             src="	https://hostim-html.themetags.com/assets/img/visa.png"
             alt=""
           />
           <img
-            src="	https://hostim-html.themetags.com/assets/img/mastercard.png"
+            style={{ border: "1px solid red" }}
+            className=" w-[72px] h-[30px] "
+            src="	https://hostim-html.themetags.com/assets/img/visa.png"
             alt=""
           />
           <img
-            src="https://hostim-html.themetags.com/assets/img/payoneer.png"
+            style={{ border: "1px solid red" }}
+            className=" w-[72px] h-[30px] "
+            src="	https://hostim-html.themetags.com/assets/img/visa.png"
             alt=""
           />
           <img
-            src="https://hostim-html.themetags.com/assets/img/paypal.png"
+            style={{ border: "1px solid red" }}
+            className=" w-[72px] h-[30px] "
+            src="	https://hostim-html.themetags.com/assets/img/visa.png"
             alt=""
           />
         </div>
