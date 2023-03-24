@@ -11,6 +11,142 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #292937;
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
+  height: 75px;
+  color: #fff;
+  padding: 10px 8%;
+}
+
+img {
+  width: 160px;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul a {
+  font-weight: 600;
+  margin: 0px 20px;
+  transition: 0.5s all;
+}
+
+ul a:hover {
+  color: #ba5256;
+}
+.btn-hover {
+  width: 120px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 0px 15px;
+  padding: 10px 0;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.icon {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  button {
+    display: none;
+  }
+
+  nav {
+    padding: 0px 7%;
+    width: 100%;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .icon {
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+}
+.icon:hover a {
+  display: none;
+  background-color: red;
+  width: 100px;
+}
+
+.btn-hover.color-7 {
+  background-image: linear-gradient(
+    to right,
+    #9553e1,
+    #a51fb7,
+    #4d4af5,
+    #d400ff
+  );
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 0;
+  z-index: 1;
+  background: #000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 500px;
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 250px;
+  justify-content: space-evenly;
+  border-radius: 4px;
+}
+.dropdown-content p {
+  background-color: rgb(0, 0, 0);
+  padding: 7px 70px;
+  margin: 3px;
+  transition: 0.5s all;
+  border-bottom: 1px solid rgb(67, 65, 65);
+}
+.dropdown-content p:hover {
+  background-color: #00072c;
+}
