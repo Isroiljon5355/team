@@ -18,13 +18,13 @@ body {
 }
 
 .text p {
-    color: #fff;
+    /* color: #fff;
     font-weight: bold;
     font-size: 65px;
     margin-top: 14%;
     margin-left: 7%;
     margin-bottom: 50px;
-    line-height: 80px;
+    line-height: 80px; */
 }
 
 .text span {
@@ -36,7 +36,7 @@ body {
     line-height: 30px;
 }
 
-.hundredtwenty {
+/* .hundredtwenty {
     width: 250px;
     height: 80px;
     float: right;
@@ -45,7 +45,7 @@ body {
     position: absolute;
     border-radius: 10px;
     background-color: #25262E;
-}
+} */
 
 .button button {
     width: 150px;
@@ -64,9 +64,6 @@ body {
     background-image: linear-gradient(to right, blue, #d65590);
 }
 
-.minibox img{
+.minibox img {
     width: 30px;
-}
-
-.minibox h1 {
 }
