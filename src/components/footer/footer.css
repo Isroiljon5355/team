@@ -11,9 +11,10 @@ li a:hover::before {
 
 .input {
   border: 1px solid #555;
-  width: 300px;
-  height: 70px;
+  width: 290px;
+  height: 65px;
   padding-right: 80px;
+  border-radius: 5px;
 }
 .item {
   background: none;
