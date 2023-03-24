@@ -97,7 +97,7 @@ function Footer() {
             type="text"
             placeholder="Type Your Mail"
           />
-          <button className="w-[100px] h-[40px] text-[white] p-1 pl-5 mt-4 pr-12 rounded-[5px] bg-gradient-to-r from-purple-500 to-pink-500 ">
+          <button className="w-[100px] h-[40px] text-[white] p-1 pl-4 mt-4 pr-12 rounded-[5px] bg-gradient-to-r from-purple-500 to-pink-500 ">
             Subscribe
           </button>
         </div>
