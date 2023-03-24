@@ -1,0 +1,14 @@
+.input {
+  border: 1px solid #555;
+  width: 350px;
+  height: 70px;
+}
+.item {
+  background: none;
+}
+.hostim {
+  border: none;
+}
+img {
+  border: 1px solid red;
+}
