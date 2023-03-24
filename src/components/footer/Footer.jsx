@@ -106,25 +106,21 @@ function Footer() {
         </p>
         <div className="mt-6 flex gap-2">
           <img
-            style={{ border: "1px solid red" }}
             className=" w-[72px] h-[30px] cursor-pointer"
             src="	https://hostim-html.themetags.com/assets/img/visa.png"
             alt=""
           />
           <img
-            style={{ border: "1px solid red cursor-pointer" }}
             className=" w-[72px] h-[30px] "
             src="	https://hostim-html.themetags.com/assets/img/visa.png"
             alt=""
           />
           <img
-            style={{ border: "1px solid red cursor-pointer" }}
             className=" w-[72px] h-[30px] "
             src="	https://hostim-html.themetags.com/assets/img/visa.png"
             alt=""
           />
           <img
-            style={{ border: "1px solid red cursor-pointer" }}
             className=" w-[72px] h-[30px] "
             src="	https://hostim-html.themetags.com/assets/img/visa.png"
             alt=""
