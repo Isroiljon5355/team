@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  /* background-image: url(../img/game-backgrounds.webp); */
+  background-color: rgb(69, 91, 84);
+}
+.media {
+  flex-wrap: wrap;
+}
+.name {
+  display: flex;
+}
+.img1 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 20px 10%;
+}
+.n1 img {
+  width: 100%;
+  height: 630px;
+  border-radius: 8px;
+}
+.n2 img {
+  width: 100%;
+  height: 306px;
+  border-radius: 8px;
+}
+
+.img2 {
+  display: flex;
+  margin-top: 10px;
+}
+.img2 img {
+  height: 310px;
+  border-radius: 8px;
+}
+.img3 {
+  margin-right: 22px;
+}
+.card {
+  width: 33%;
+  height: 200px;
+  position: absolute;
+  top: 63%;
+  margin: 0px 37px;
+  backdrop-filter: blur(20px);
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+}
+.cd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  width: 120px;
+  padding: 10px 0;
+  border: none;
+  overflow: hidden;
+  border-radius: 8px;
+  background: rgb(255, 0, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 228, 1) 0%,
+    rgba(255, 0, 207, 1) 31%,
+    rgba(102, 0, 255, 1) 77%
+  );
+  color: #fff;
+}
+h1 {
+  font-size: 30px;
+  padding: 10px 0;
+}
+button:hover {
+  background: rgb(102, 0, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(102, 0, 255, 1) 21%,
+    rgba(255, 0, 207, 1) 46%,
+    rgba(255, 0, 228, 1) 74%
+  );
+  cursor: pointer;
+}
+p {
+  margin: 3px 10px;
+}
+.paragraf {
+  padding: 3px 0;
+}
+.paragraf p {
+  padding: 3px 0;
+}
+.around {
+  margin-left: 30px;
+}
+.card2 {
+  width: 36%;
+  height: 200px;
+  position: absolute;
+  top: 15%;
+  margin: 0px 22px;
+  backdrop-filter: blur(20px);
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+}
+.card3 {
+  width: 20%;
+  height: 190px;
+  position: absolute;
+  top: 67%;
+  margin: 0px 18px;
+  backdrop-filter: blur(20px);
+  padding: 15px;
+  border-radius: 8px;
+  color: #fff;
+}
+.card3 h1 {
+  font-size: 23px;
+}
+@media only screen and (max-width: 1083px) {
+  .card2 {
+    width: 65%;
+    height: 200px;
+    position: absolute;
+    top: 15%;
+  }
+  .card3 {
+    width: 28%;
+    height: 185px;
+  }
+  .n1 img {
+    display: none;
+  }
+  .card {
+    display: none;
+  }
+  .media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img4 {
+    margin-left: 30px;
+  }
+}
