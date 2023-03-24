@@ -111,17 +111,17 @@ function Footer() {
             alt=""
           />
           <img
-            className=" w-[72px] h-[30px] "
+            className=" w-[72px] h-[30px] cursor-pointer"
             src="	https://hostim-html.themetags.com/assets/img/visa.png"
             alt=""
           />
           <img
-            className=" w-[72px] h-[30px] "
+            className=" w-[72px] h-[30px] cursor-pointer"
             src="	https://hostim-html.themetags.com/assets/img/visa.png"
             alt=""
           />
           <img
-            className=" w-[72px] h-[30px] "
+            className=" w-[72px] h-[30px] cursor-pointer"
             src="	https://hostim-html.themetags.com/assets/img/visa.png"
             alt=""
           />
