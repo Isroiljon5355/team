@@ -5,7 +5,7 @@ import Text from './text/Text'
 
 function Cards() {
     return (
-        <div className='tool px-5 py-10 bg-[#1e1e2c]'>
+        <div className='tool px-4 xl:px-24 py-10 bg-[#1e1e2c]'>
             <Text />
             <div className='content grid gap-10 items-center mt-20'>
                 {data.map((item) => {
