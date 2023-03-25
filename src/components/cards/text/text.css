@@ -1,66 +1,9 @@
-.flexbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .box h3::before {
-  padding: 0px 20px;
+  padding: 0px 15px;
   content: url("https://hostim-html.themetags.com/assets/img/shapes/gm-title-left.png");
 }
 
 .box h3::after {
   content: url("https://hostim-html.themetags.com/assets/img/shapes/gm-title-right.png");
-  padding: 0px 20px;
-}
-
-.box {
-  padding: 0px 20px;
-  width: 52%;
-}
-
-.box p {
-  font-size: 23px;
-  color: aliceblue;
-  text-align: center;
-}
-
-.box h3 {
-  text-align: center;
-  color: aliceblue;
-  font-size: 42px;
-  padding: 0px 30px;
-}
-
-@media (min-width: 1000px) {
-  .box h3 {
-    font-size: 22px;
-    padding: 0;
-  }
-  .box p {
-    font-size: 15px;
-    padding: 10px 0px;
-  }
-}
-
-@media (max-width: 795px) {
-  .box {
-    padding: 0;
-    width: 100%;
-  }
-  .box h3 {
-    font-size: 20px;
-    padding: 0;
-  }
-  .box p {
-    font-size: 13px;
-  }
-
-  .box h3::before {
-    padding: 0px 12px;
-  }
-
-  .box h3::after {
-    padding: 0px 12px;
-  }
+  padding: 0px 15px;
 }
