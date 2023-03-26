@@ -1,7 +1,7 @@
-import Img from "./product-1.png";
-import Img2 from "./product-2.png";
-import Img3 from "./product-3.png";
-import Img4 from "./product-4.png";
+import Img from "../src/assepts/product-1.png";
+import Img2 from "../src/assepts/product-2.png";
+import Img3 from "../src/assepts/product-3.png";
+import Img4 from "../src/assepts/product-4.png";
 
 export const data = [
   {
