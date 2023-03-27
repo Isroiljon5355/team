@@ -1,17 +1,17 @@
 import React from "react";
 import Amplitude1 from "../img/amplitude1.png";
 import Profitwell from "../img/profitwell.png";
+import Sitemate from "../img/sitemate-2.png";
 import Tempo from "../img/tempo.png";
 import Toast from "../img/toast.png";
 import Velocity from "../img/velocity.png";
-import Sitemate from "../img/sitemate-2.png";
 import Gmcontactbg from "../img/gm-contact-bg.png";
 
 function Form() {
   return (
     <div>
-      <div className="flex flex-wrap items-center justify-between  bg-[#1E1E2C] h-screen p-10">
-        <div className="">
+      <div className="flex flex-wrap  items-center justify-between  bg-[#1E1E2C]  p-10">
+        <div className=" ">
           <h1 className="text-[#fff] text-5xl font-bold leading-loose ">
             Know About Updates
           </h1>
@@ -19,7 +19,7 @@ function Form() {
             <h3 className="text-[#fff]  text-3xl font-medium inline">
               Our Top Clients
             </h3>
-            <p className=" left-64 border-y-4 border-fuchsia-700 w-96 absolute z-10"></p>
+            <p className=" left-64 border-y-4 border-fuchsia-700 w-96 absolute  z-10 md:min-[100px]:"></p>
           </div>
           <ul className="grid grid-cols-3 justify-between gap-5 mt-5 w-full">
             <li className="bg-[#26262c] px-10 py-4 ">
@@ -43,10 +43,12 @@ function Form() {
           </ul>
           <div className="text-white text-xl mt-7 m-8 flex flex-wrap items-center hover:w-52 cursor-pointer  ">
             <p className="p-5 w-5 rounded-3xl z-1 decoration-clone  bg-gradient-to-r from-red-600 to-indigo-500 border-solid border-2 hover:px-16 duration-700 cursor-pointer	"></p>
-            <h1 className="absolute 	">VIEW ALL 200+ CLIENTS </h1>
+            <h1 className="absolute hover:px-16 duration-700 cursor-pointer">
+              VIEW ALL 200+ CLIENTS{" "}
+            </h1>
           </div>
         </div>
-        <div className=" ">
+        <div className=" relative z-10 ">
           <div className="mb-5 flex flex-wrap justify-between gap-x-10">
             <div>
               <label
@@ -165,7 +167,7 @@ function Form() {
           </div>
         </div>
       </div>
-      <div className="absolute right-0 top-0 ">
+      <div className=" absolute right-0 top-0  ">
         <img src={Gmcontactbg} alt="" />
       </div>
     </div>
