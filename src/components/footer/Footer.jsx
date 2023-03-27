@@ -14,7 +14,7 @@ function Footer() {
       <div className="max-[414px]:grid bg-[#33313D] p-6 grid grid-cols-4 justify-around">
         <div>
           <img
-            className="hostim object-cover"
+            className="hostim object-cover cursor-pointer"
             src="https://hostim-html.themetags.com/assets/img/home3/logo-white.png"
             alt=""
           />
