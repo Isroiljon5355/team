@@ -1,7 +1,9 @@
 import React from "react";
-
+import Medium from "./medium/Medium.jsx"
 function App() {
-  return <div>App</div>;
+  return <div>
+    <Medium/>
+  </div>;
 }
 
 export default App;
