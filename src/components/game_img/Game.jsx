@@ -9,7 +9,7 @@ function Game() {
       <div className="">
         <div className="bg-neutral-900 relative">
           <img
-            className="h-[97vh] w-[82%] my-[40px] relative"
+            className="h-[97vh] w-[100%] my-[40px] relative"
             src={img1}
             alt=""
           />
@@ -17,11 +17,11 @@ function Game() {
       </div>
       <div class="bg-gradient-to-l from-black  w-[100%] h-[97vh] absolute top-[5%] left-[0%]"></div>
       <img
-        className=" top-[19%] absolute left-[79%] opacity-[0.1]"
+        className=" top-[19%] absolute left-[157vh] opacity-[0.1]"
         src={img2}
         alt=""
       />
-      <img className="top-[5%] absolute left-[65%] " src={img3} alt="" />
+      <img className="top-[5%] absolute left-[129vh] " src={img3} alt="" />
       <div className="absolute top-[5%] left-[57%] text-white">
         <h1 className="text-[40px] font-[700] my-[130px]">
           We are the Best <br />
