@@ -4,11 +4,11 @@ import { textContext } from '../../../TextContext'
 function First() {
     const data = useContext(textContext)
     return (
-        <div style={{ gridTemplateColumns: "repeat(auto-fit, minmax(350px, auto))" }} className='grid gap-10 justify-between px-[8%]'>
+        <div style={{ gridTemplateColumns: "repeat(auto-fit, minmax(350px, auto))" }} className=' mt-[30px] grid md:gap-10 justify-between px-[8%]'>
             {
                 data.map((item) => {
-                    return <div className=' w-full bg-[rgba(255,255,255,.05)] rounded-xl overflow-hidden'>
-                        <img className=' w-full rounded-xl z-10 hover:scale-100 duration-700' src={item.img} />
+                    return <div className=' mt-[30px] w-full bg-[rgba(255,255,255,.05)] rounded-xl overflow-hidden'>
+                        <img className=' w-full rounded-xl z-10 hover:scale-105 duration-700 cursor-pointer' src={item.img} />
                         <div className='py-[20px] px-4'>
                             <span className=' text-white text-base font-semibold'>{item.name}</span>
                             <span className='text-[#f16262] text-base font-semibold ml-14'>{item.time}</span>
