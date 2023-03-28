@@ -17,7 +17,7 @@ function Game() {
       </div>
       <div class="bg-gradient-to-l from-black  w-[100%] h-[97vh] absolute top-[5%] left-[0%]"></div>
       <img
-        className=" top-[23%] absolute left-[79%] opacity-[0.1]"
+        className=" top-[19%] absolute left-[79%] opacity-[0.1]"
         src={img2}
         alt=""
       />
