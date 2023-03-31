@@ -1,8 +1,9 @@
-li a:hover {
+h4:hover {
   padding-left: 15px;
   transition: all 0.8s;
+  cursor: pointer;
 }
-li a:hover::before {
+h4:hover::before {
   color: #0e0eee;
   position: absolute;
   margin-left: -16px;
@@ -22,4 +23,10 @@ li a:hover::before {
 }
 .hostim {
   border: none;
+}
+button:hover {
+  background-image: linear-gradient(#a855f7, #ec4899);
+}
+.face:hover {
+  background-image: linear-gradient(#a855f7, #ec4899);
 }

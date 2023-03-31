@@ -5,13 +5,13 @@ import {
   FaInstagram,
   FaLinkedin,
 } from "react-icons/fa";
+import { data } from "./FooterData";
 import "./footer.css";
-import { data } from "./datam";
 
 function Footer() {
   return (
     <div>
-      <div className="max-[414px]:grid bg-[#33313D] p-6 grid grid-cols-4 justify-around">
+      <div className=" bg-[#33313D] p-6 grid grid-cols-4 justify-around">
         <div>
           <img
             className="hostim object-cover cursor-pointer"
@@ -28,43 +28,40 @@ function Footer() {
             Follow us on <span className="text-[blue]">______</span>
           </h1>
           <div className="flex mt-6 gap-3  cursor-pointer">
-            <FaFacebookF className="bg-gradient-to-r from-purple-500 to-pink-500 w-[30px] h-[30px] rounded-[50%] p-[7px]" />
-            <FaTwitter className="bg-gradient-to-r from-purple-500 to-pink-500 w-[30px] h-[30px] rounded-[50%] p-[7px]" />
-            <FaInstagram className="bg-gradient-to-r from-purple-500 to-pink-500 w-[30px] h-[30px] rounded-[50%] p-[7px]" />
-            <FaLinkedin className="bg-gradient-to-r from-purple-500 to-pink-500 w-[30px] h-[30px] rounded-[50%] p-[7px]" />
+            <FaFacebookF className="face bg-gradient-to-r from-purple-500 to-pink-500 w-[30px] h-[30px] rounded-[50%] p-[7px]" />
+            <FaTwitter className="face bg-gradient-to-r from-purple-500 to-pink-500 w-[30px] h-[30px] rounded-[50%] p-[7px]" />
+            <FaInstagram className="face bg-gradient-to-r from-purple-500 to-pink-500 w-[30px] h-[30px] rounded-[50%] p-[7px]" />
+            <FaLinkedin className="face bg-gradient-to-r from-purple-500 to-pink-500 w-[30px] h-[30px] rounded-[50%] p-[7px]" />
           </div>
         </div>
         {data.map((item) => {
           return (
             <div key={item.id}>
               <div className="mt-4 pl-6">
-                <h1 className="text-[#fff] font-bold text-[18px]">{item.h1}</h1>
+                <h1 className="text-[#fff] font-bold text-[18px]">
+                  {item.title}
+                </h1>
                 <hr className="w-12 h-1 text-orange-300 mt-2 " />
-                <li className="mt-3 list-none grid  ">
-                  <a className="text-[#fff] list-none leading-8 " href="#">
-                    {item.a}
-                  </a>
-
-                  <a className="text-[#fff] list-none leading-8" href="#">
-                    {item.b}
-                  </a>
-
-                  <a className="text-[#fff] list-none leading-8 " href="#">
-                    {item.d}
-                  </a>
-
-                  <a className="text-[#fff] list-none leading-8 " href="#">
-                    {item.e}
-                  </a>
-
-                  <a className="text-[#fff] list-none leading-8 " href="#">
-                    {item.f}
-                  </a>
-
-                  <a className="text-[#fff] leading-8" href="#">
-                    {item.g}
-                  </a>
-                </li>
+                <div>
+                  <h4 className="text-[#fff] list-none leading-8">
+                    {item.support}
+                  </h4>
+                  <h4 className="text-[#fff] list-none leading-8">
+                    {item.about}
+                  </h4>
+                  <h4 className="text-[#fff] list-none leading-8">
+                    {item.search}
+                  </h4>
+                  <h4 className="text-[#fff] list-none leading-8">
+                    {item.account}
+                  </h4>
+                  <h4 className="text-[#fff] list-none leading-8">
+                    {item.customer}
+                  </h4>
+                  <h4 className="text-[#fff] list-none leading-8">
+                    {item.contact}
+                  </h4>
+                </div>
               </div>
             </div>
           );
@@ -85,25 +82,10 @@ function Footer() {
           <p className="text-[white] mt-8">
             We Accepted <span className="text-[blue]">_____</span>
           </p>
-          <div className="mt-6 flex gap-2">
+          <div className="mt-2 flex gap-2">
             <img
-              className=" w-[72px] h-[30px] cursor-pointer"
-              src="	https://hostim-html.themetags.com/assets/img/visa.png"
-              alt=""
-            />
-            <img
-              className=" w-[72px] h-[30px] cursor-pointer"
-              src="	https://hostim-html.themetags.com/assets/img/visa.png"
-              alt=""
-            />
-            <img
-              className=" w-[72px] h-[30px] cursor-pointer"
-              src="	https://hostim-html.themetags.com/assets/img/visa.png"
-              alt=""
-            />
-            <img
-              className=" w-[72px] h-[30px] cursor-pointer"
-              src="	https://hostim-html.themetags.com/assets/img/visa.png"
+              className=" w-[300px] h-[20x] cursor-pointer object-cover"
+              src="https://kachabazar-store.vercel.app/_next/image?url=%2Fpayment-method%2Fpayment-logo.png&w=384&q=75"
               alt=""
             />
           </div>
