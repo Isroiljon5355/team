@@ -1,12 +1,12 @@
 import React from "react";
-import Img from "../records/img/img.png";
+import Img from "./img/img.png";
 
 function Text() {
   return (
     <div>
       <p className="font-bold text-7xl mt-60 ml-20 mb-10">
         The Best <br />
-        Players & Get <br /> Better on{" "}
+        Players & Get <br /> Better on
         <span className="h-14 linear-gradient-to-r from-purple-500 to-pink-500 text-blue-500	">
           Wildrift
         </span>

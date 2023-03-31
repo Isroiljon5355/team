@@ -1,20 +1,18 @@
-import { Image } from "@mantine/core";
-import React from "react";
-// import Api from "./api/Api";
-// import Modal from "./Modal";
+import React, { createContext } from "react";
+import Text from "../src/records/Text";
+import Records from "./records/Records";
 import Button from "../src/records/button/Button";
-import Text from "./records/Text";
-import Hundredtwenty from "./records/120K/Hundredtwenty.jsx";
+import Hundredtwenty from "../src/records/120K/Hundredtwenty";
 
 function App() {
+  const greet = createContext(text);
+  const text = "Hello world";
   return (
     <div>
-      {/* <Api /> */}
-      {/* <Modal /> */}
+      <Records />
       <Text />
-      <Image />
-      <Hundredtwenty />
       <Button />
+      <Hundredtwenty />
     </div>
   );
 }
