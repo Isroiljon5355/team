@@ -7,7 +7,7 @@ export const data = [
   {
     id: 1,
     price: "10% off",
-    Image: "https://hostim-html.themetags.com/assets/img/home3/product-4.png",
+    Image: Img4,
     icon: <i class="fa-regular fa-heart"></i>,
     text: {
       h3: "Gears Xbox Controller",
