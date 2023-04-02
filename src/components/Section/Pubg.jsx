@@ -9,7 +9,7 @@ import "./Pubg.css";
 function Pubg() {
   return (
     <div>
-      <div className="big relative h-[570] w-[100%] md:h-[570px] bg-[#26262c] md:flex items-center">
+      <div className="big hidden relative h-[570] w-[100%] md:h-[570px] bg-[#26262c] md:flex items-center">
         <div className="left">
           <img className="w-[600px] h-[570px]" src={Img} alt="" />
           <div>
