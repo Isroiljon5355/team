@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { AiOutlineHeart } from "react-icons/ai";
-import { data } from "../../data";
 import Image from "../../gm-product-shape.png";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import "../Cards/Card.css";
+import { Context } from "./Context";
 
 const Card = () => {
+  const data = useContext(Context);
   const [sliderRef] = useKeenSlider(
     {
       breakpoints: {
@@ -59,7 +60,9 @@ const Card = () => {
       <div className="absolute top-0 left-0 w-full">
         <div>
           <div className="text-center text-white mt-10">
-            <h1 className="text-[42px] font-bold ">Gaming Product Corner</h1>
+            <h1 className="md:text-[42px] text-[28px] font-bold ">
+              Gaming Product Corner
+            </h1>
             <p className="leading-6 text-[16px]">
               Compete with 100 players on a remote island for winner takes
               showdown known <br /> issue t feels at home on the head-up skin
@@ -71,57 +74,53 @@ const Card = () => {
           {data.map((item) => {
             return (
               <div className="keen-slider__slide number-slide " key={item.id}>
-                <section className="h-[650px]">
-                  <div className="mt-10">
-                    <div className="item w-[330px] h-[340px] drop-shadow-md ">
-                      <div className=" w-[330px] h-[240px] bg-[rgba(255,255,255,.05)] p-[1px] rounded-t-lg ">
-                        <div className="paragrap ml-4">
-                          <p
-                            className="price pl-2 w-[75px] h-[15] mt-4 text-white bg-[rgba(255,255,255,.05)] shadow-sm
-                        hover:bg-red-600 rounded-[6px] "
-                          >
-                            {item.price}
-                          </p>
-                        </div>
-                        <div className="hh">
-                          <img
-                            className="hover:cursor-pointer ml-14"
-                            src={item.Image}
-                            alt=""
-                          />
-                        </div>
-                        <div className="icon float-right">
-                          <AiOutlineHeart className="icon text-2xl hidden" />
-                        </div>
+                <div>
+                  <div
+                    className="card w-[330px] mt-5 h-[380px]  container
+                   mx-auto p-[10px]"
+                  >
+                    <div
+                      className="pb-[35px] pt-[10px] rounded-t-lg 
+                      bg-[rgba(255,255,255,.05)]"
+                    >
+                      <p
+                        className="price text-white text-center w-[75px]
+                       ml-5 rounded-sm bg-[rgba(255,255,255,.1)]"
+                      >
+                        10% off
+                      </p>
+                      <img
+                        className="mx-auto hover:cursor-pointer"
+                        src={item.Image}
+                        alt=""
+                      />
+                      <div className="icon w-[25px] text-white hidden hover:cursor-pointer ease-in-out duration-300 float-right">
+                        <AiOutlineHeart className="text-2xl" />
                       </div>
-                      <div className="w-[100%] h-[170px] bg-zinc-900 rounded-b-lg pt-3">
-                        <p
-                          className="text-center text-xl text-white pt-1 hover:cursor-pointer
-                          hover:text-red-600 hover:ease-in-out duration-500"
-                        >
+                    </div>
+                    <div className="rounded-b-[15px] md:w-[310px] h-[150px] bg-[#1c1e25]">
+                      <div className="item  text-white text-center">
+                        <h3 className="text-xl pt-3 hover:text-[#dc3545] hover:cursor-pointer ease-in-out duration-300">
                           {item.text.h3}
-                        </p>
-                        <div className="flex items-center justify-center">
-                          <p className="text-red-600 pr-3 text-xl">
-                            {item.text.p}
-                          </p>
-                          <del className="text-xl text-white">
-                            {item.text.del}
-                          </del>
-                        </div>
+                        </h3>
+                      </div>
+                      <div className="coin flex justify-center items-center font-semibold mt-2">
+                        <p className="text-[#dc3545]">{item.text.p}</p>
+                        <del className="ml-[18px] text-white text-[16px]">
+                          {item.text.p}
+                        </del>
+                      </div>
+                      <div className="">
                         <button
-                          className="h-12 w-[150px] ml-[90px]  mt-3 rounded-lg 
-                          text-white border-solid border-2
-                          border-white hover:bg-gradient-to-r from-purple-500
-                          to-blue-900 hover:border-none hover:text-red-600 hover:ease-in-out duration-500
-                         "
+                          className="ml-[99px] mt-3 bg-transparent hover:bg-gradient-to-r from-red-500 via-pink-500 to-blue-900 text-white 
+                        font-semibold hover:text-white py-2.5 px-4 border border-white hover:border-transparent hover:cursor-pointer ease-in-out duration-300 rounded"
                         >
-                          Add to Cart
+                          Add to card
                         </button>
                       </div>
                     </div>
                   </div>
-                </section>
+                </div>
               </div>
             );
           })}

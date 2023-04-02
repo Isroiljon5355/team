@@ -8,7 +8,6 @@ export const data = [
     id: 1,
     price: "10% off",
     Image: Img4,
-    icon: <i class="fa-regular fa-heart"></i>,
     text: {
       h3: "Gears Xbox Controller",
       p: "$30.000",
@@ -19,7 +18,6 @@ export const data = [
     id: 2,
     price: "10% off",
     Image: Img,
-    icon: <i class="fa-regular fa-heart"></i>,
     text: {
       h3: "Gears5 Xbox Controller",
       p: "$30.000",
@@ -30,7 +28,6 @@ export const data = [
     id: 3,
     price: "10% off",
     Image: Img2,
-    icon: <i class="fa-regular fa-heart"></i>,
     text: {
       h3: "JBL Headphones Wireless",
       p: "$30.000",
@@ -41,7 +38,6 @@ export const data = [
     id: 4,
     price: "10% off",
     Image: Img3,
-    icon: <i class="fa-regular fa-heart"></i>,
     text: {
       h3: "Gears Xbox Controller",
       p: "$30.000",
@@ -52,7 +48,6 @@ export const data = [
     id: 4,
     price: "10% off",
     Image: Img4,
-    icon: <i class="fa-regular fa-heart"></i>,
     text: {
       h3: "Gears Xbox Controller",
       p: "$30.000",
@@ -63,7 +58,6 @@ export const data = [
     id: 4,
     price: "10% off",
     Image: Img,
-    icon: <i class="fa-regular fa-heart"></i>,
     text: {
       h3: "Gears Xbox Controller",
       p: "$30.000",
@@ -74,7 +68,6 @@ export const data = [
     id: 4,
     price: "10% off",
     Image: Img2,
-    icon: <i class="fa-regular fa-heart"></i>,
     text: {
       h3: "Gears Xbox Controller",
       p: "$30.000",
@@ -85,7 +78,6 @@ export const data = [
     id: 4,
     price: "10% off",
     Image: Img3,
-    icon: <i class="fa-regular fa-heart"></i>,
     text: {
       h3: "Gears Xbox Controller",
       p: "$30.000",
@@ -96,7 +88,6 @@ export const data = [
     id: 4,
     price: "10% off",
     Image: Img4,
-    icon: <i class="fa-regular fa-heart"></i>,
     text: {
       h3: "Gears Xbox Controller",
       p: "$30.000",
@@ -107,7 +98,6 @@ export const data = [
     id: 4,
     price: "10% off",
     Image: Img,
-    icon: <i class="fa-regular fa-heart"></i>,
     text: {
       h3: "Gears Xbox Controller",
       p: "$30.000",
@@ -119,7 +109,6 @@ export const data = [
     id: 4,
     price: "10% off",
     Image: Img2,
-    icon: <i class="fa-regular fa-heart"></i>,
     text: {
       h3: "Gears Xbox Controller",
       p: "$30.000",

@@ -1,12 +1,12 @@
-.item:hover .paragrap .price {
-  background-color: #f16262;
+.card:hover .price {
+  background-color: #dc3545;
   transition: all 0.5s ease-in-out;
 }
-.hh:hover img {
+.card:hover img {
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
 }
-.item:hover .icon {
+.card:hover .icon {
   color: white;
   background-color: #f16262;
   width: 25px;
