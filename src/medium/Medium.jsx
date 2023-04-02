@@ -1,15 +1,15 @@
 import React from "react";
 function Section() {
   return (
-    <div className="sm:grid  ">
-      <div className="flex justify-between relative py-[20px] px-[10%] ">
-        <div className="mr-[20px]  ">
+    <div className="  ">
+      <div className="">
+        <div className="relative mt-[20px] ">
           <img
-            className="rounded-lg"
+            className="rounded-lg md:w-[60%]"
             src="https://hostim-html.themetags.com/assets/img/home3/ft-1.jpg"
             alt=""
           />
-          <div className="w-[33%] h-[200px] absolute top-[61%] mx-[37px] backdrop-blur-[33px] p-[20px] rounded-lg text-white bg-[rgba(0,0,0,.6)] sm:grid-cols-1   ">
+          <div className=" w-[92%] md:w-[52%] absolute top-[40%] left-[4%] backdrop-blur-[33px] p-[20px] rounded-lg text-white bg-[rgba(0,0,0,.6)] sm:grid-cols-1  ">
             <h1 className="text-[30px] font-extrabold ">
               Assassin's Creed Valhalla
             </h1>
@@ -19,9 +19,9 @@ function Section() {
             </div>
             <div className="flex justify-between text-center">
               <div className="">
-                <p className="mr-[176px] font-medium">Activison:</p>
+                <p className="mr-[169px] font-medium">Activison:</p>
                 <p className="font-medium ">
-                  PS4, PS5, Xbox One, Xbox Series X
+                  PS4, PS5, Xbox One, Xbox Series 
                 </p>
               </div>
               <div className="w-[120px] py-[5px] border-none overflow-hidden rounded-lg  bg-gradient-to-r from-red-600 to-indigo-500 hover:bg-gradient-to-l to-indigo-500 from-red-600 text-white">
@@ -31,25 +31,25 @@ function Section() {
           </div>
         </div>
         <div className="around">
-          <div className="n2">
+          <div className="relative mt-[20px]">
             <img
-              className="rounded-lg"
+              className="rounded-lg md:w-[60%]"
               src="https://hostim-html.themetags.com/assets/img/home3/ft-2.jpg"
               alt=""
             />
-            <div className="w-[33%] h-[180px] absolute top-[15%] mx-[37px] backdrop-blur-[33px] p-[20px] rounded-lg text-white bg-[rgba(0,0,0,.6)]">
+            <div className="w-[92%] md:w-[52%] absolute top-[1%] mx-auto left-[4%] backdrop-blur-[33px] p-[20px] rounded-lg text-white bg-[rgba(0,0,0,.6)]">
               <h1 className="text-[30px] font-extrabold ">
                 Assassin's Creed Valhalla
               </h1>
               <div className="flex">
                 <p className="font-medium">$26.00</p>
-                <p className="ml-[15px] mb-[30px] font-medium">$30.00</p>
+                <p className="ml-[15px] mb-[20px] font-medium">$30.00</p>
               </div>
               <div className="flex justify-between text-center">
                 <div className="paragraf">
                   <p className="mr-[176px] font-medium">Activison:</p>
                   <p className="font-medium">
-                    PS4, PS5, Xbox One, Xbox Series X
+                    PS4, PS5, Xbox One, Xbox Series
                   </p>
                 </div>
                 <div className="w-[120px] py-[10px] border-none overflow-hidden rounded-lg  bg-gradient-to-r from-red-600 to-indigo-500 hover:bg-gradient-to-l to-indigo-500 from-red-600 text-white">
@@ -58,14 +58,14 @@ function Section() {
               </div>
             </div>
           </div>
-          <div className="flex mt-[10px] mt-[18px] ">
-            <div className="mr-[22px]">
+          <div className="md:flex">
+            <div className="relative mt-[20px]">
               <img
-                className="rounded-lg"
+                className="rounded-lg md:w-[60%]"
                 src="https://hostim-html.themetags.com/assets/img/home3/ft-3.jpg"
                 alt=""
               />
-              <div className="w-[15%] h-[160px] absolute top-[67%] mx-[30px] backdrop-blur-[33px] p-[20px] rounded-lg text-white bg-[rgba(0,0,0,.6)]">
+              <div className="w-[92%] md:w-[52%] absolute top-[73%] mx-auto left-[4%] backdrop-blur-[33px] p-[20px] rounded-lg text-white bg-[rgba(0,0,0,.6)]">
                 <h1 className="text-[15px] font-extrabold ">
                   Assassin's Creed Valhalla
                 </h1>
@@ -80,14 +80,14 @@ function Section() {
                 </div>
               </div>
             </div>
-            <div className="img4">
+            <div className="relative mt-[20px]">
               {" "}
               <img
-                className="rounded-lg"
+                className="rounded-lg  md:w-[60%]"
                 src="https://hostim-html.themetags.com/assets/img/home3/ft-4.jpg"
                 alt=""
               />
-              <div className="w-[15%] h-[160px] absolute top-[67%] mx-[30px] backdrop-blur-[33px] p-[20px] rounded-lg text-white bg-[rgba(0,0,0,.6)]">
+              <div className="w-[92%] md:w-[52%]  absolute top-[73%] mx-auto left-[4%] backdrop-blur-[33px] p-[20px] rounded-lg text-white bg-[rgba(0,0,0,.6)]">
                 <h1 className="text-[15px] font-extrabold ">
                   Assassin's Creed Valhalla
                 </h1>
