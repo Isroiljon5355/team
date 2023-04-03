@@ -1,14 +1,11 @@
-import Card from "./components/Cards/Card";
-import { Context } from "./components/Cards/Context";
-import { data } from "./data";
+import React from "react";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <>
-      <Context.Provider value={data}>
-        <Card />
-      </Context.Provider>
-    </>
+    <div>
+      <Footer />
+    </div>
   );
 }
 export default App;
