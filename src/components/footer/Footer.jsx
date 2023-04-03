@@ -9,11 +9,12 @@ import {
 import "./footer.css";
 import Link from "./Link";
 import Input from "./Input";
+import LinkServives from "./LinkServives";
 
 function Footer() {
   return (
     <div>
-      <div className="w-[100%] bg-[#33313D] p-6 lg:grid grid-cols-3">
+      <div className="w-[100%] bg-[#33313D] p-6 lg:grid grid-cols-4">
         <div>
           <img
             className="hostim object-cover cursor-pointer"
@@ -36,7 +37,9 @@ function Footer() {
             <FaLinkedin className="face bg-gradient-to-r from-purple-500 to-pink-500 w-[30px] h-[30px] rounded-[50%] p-[7px]" />
           </div>
         </div>
+
         <Link />
+        <LinkServives />
         <Input />
       </div>
       <div className="w-[100%] h-[40px] bg-[#515050] grid grid-cols-2 lg:h-11">

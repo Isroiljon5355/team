@@ -1,58 +1,32 @@
 export const data = [
   {
     id: 1,
-    title: "Quick Links",
-    link: "Support Center",
-    hr: <hr className="w-12 h-1 mt-2" />,
+    title: "Support Center",
+    link: "/SupportCenter",
   },
   {
     id: 2,
-    link: "About Us",
+    title: "About Us",
+    link: "/AboutUs",
   },
   {
     id: 3,
-    link: "Search Domain",
+    title: "Search Domain",
+    link: "/SearchDomain",
   },
   {
     id: 4,
-    link: "My Account",
+    title: "My Account",
+    link: "/MyAccount",
   },
   {
     id: 5,
-    link: "Customer Profiles",
+    title: "Customer Profiles",
+    link: "/CustomerProfiles",
   },
   {
     id: 6,
-    link: "Contact Us",
-  },
-  {
-    id: 7,
-    title: "Services",
-    link: "Support Center",
-    hr: <hr className="w-12 h-1 mt-2" />,
-  },
-  {
-    id: 8,
-    link: "Shared Hosting",
-  },
-  {
-    id: 9,
-    link: "Reseller Hosting",
-  },
-  {
-    id: 10,
-    link: "VPS Hosting",
-  },
-  {
-    id: 11,
-    link: "Cloud Hosting",
-  },
-  {
-    id: 12,
-    link: "Dedicated Hosting",
-  },
-  {
-    id: 13,
-    link: "Domain Name",
+    title: "Contact Us",
+    link: "/ContactUs",
   },
 ];
