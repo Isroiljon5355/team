@@ -48,7 +48,7 @@ function Pubg() {
             <img className="md:absolute top-60" src={Img4} alt="" />
           </div>
           <div>
-            <img className="md:absolute top-10 right-14" src={Img5} alt="" />
+            <img className="md:absolute top-24 right-14" src={Img5} alt="" />
           </div>
         </div>
       </div>
