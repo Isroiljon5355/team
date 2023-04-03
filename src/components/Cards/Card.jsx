@@ -54,7 +54,7 @@ const Card = () => {
       },
     ]
   );
-  return (
+  return (   
     <div className="w-[100%] h-[100vh] bg-[#26262c]">
       <img className="" src={Image} alt="" />
       <div className="absolute top-0 left-0 w-full">
