@@ -9,9 +9,7 @@ function LinkServives() {
       {ServisecData.map((item) => {
         return (
           <div className="mt-5" key={item.id}>
-            <h4 className="text-[#fff] list-none leading-4" href={item.link}>
-              {item.title}
-            </h4>
+            <h4 className="text-[#fff] list-none leading-4">{item.title}</h4>
           </div>
         );
       })}
