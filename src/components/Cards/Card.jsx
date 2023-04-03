@@ -73,10 +73,10 @@ const Card = () => {
         <div ref={sliderRef} className="keen-slider">
           {data.map((item) => {
             return (
-              <div className="keen-slider__slide number-slide " key={item.id}>
+              <div className="keen-slider__slide number-slide" key={item.id}>
                 <div>
                   <div
-                    className="card w-[330px] mt-5 h-[380px]  container
+                    className="card w-[320px] mt-5 h-[380px]  container
                    mx-auto p-[10px]"
                   >
                     <div
@@ -98,13 +98,13 @@ const Card = () => {
                         <AiOutlineHeart className="text-2xl" />
                       </div>
                     </div>
-                    <div className="rounded-b-[15px] md:w-[310px] h-[150px] bg-[#1c1e25]">
+                    <div className="rounded-b-[15px] md:w-[300px] h-[150px] bg-[#1c1e25]">
                       <div className="item  text-white text-center">
                         <h3 className="text-xl pt-3 hover:text-[#dc3545] hover:cursor-pointer ease-in-out duration-300">
                           {item.text.h3}
                         </h3>
                       </div>
-                      <div className="coin flex justify-center items-center font-semibold mt-2">
+                      <div className="flex justify-center items-center font-semibold mt-2">
                         <p className="text-[#dc3545]">{item.text.p}</p>
                         <del className="ml-[18px] text-white text-[16px]">
                           {item.text.p}
