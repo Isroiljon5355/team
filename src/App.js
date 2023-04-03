@@ -1,7 +1,7 @@
 import React, { createContext } from "react";
-import Text from "../src/records/Text";
-import Records from "./records/Records";
-import Button from "../src/records/button/Button";
+import Records from "../src/records/Records";
+import TheText from "./records/TheText";
+import TheButton from "./records/button/TheButton";
 import Hundredtwenty from "../src/records/120K/Hundredtwenty";
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
   return (
     <div>
       <Records />
-      <Text />
-      <Button />
+      <TheText />
+      <TheButton />
       <Hundredtwenty />
     </div>
   );
