@@ -6,50 +6,54 @@ import Tempo from "../img/tempo.png";
 import Toast from "../img/toast.png";
 import Velocity from "../img/velocity.png";
 import Gmcontactbg from "../img/gm-contact-bg.png";
+import { createContext } from "react";
 
 function Form() {
+  const cart = "salom";
+  const greet = createContext(cart);
   return (
     <div>
-      <div className="flex flex-wrap  items-center justify-between  bg-[#1E1E2C]  p-10">
-        <div className=" ">
-          <h1 className="text-[#fff] text-5xl font-bold leading-loose ">
+      <div className="flex flxe-wrap items-center justify-between bg-[#1E1E2C]  p-24 gap-0 md: ">
+        <div className="  ">
+          <h1 className="text-[#fff] text-[40px] font-bold leading-loose ">
             Know About Updates
           </h1>
-          <div className="flex flex-wrap items-end mb-20 ">
-            <h3 className="text-[#fff]  text-3xl font-medium inline">
+          <div className=" flex   mb-12">
+            <p className="text-[#fff]  text-2xl font-medium  ">
               Our Top Clients
-            </h3>
-            <p className=" left-64 border-y-4 border-fuchsia-700 w-96 absolute  z-10 md:min-[100px]:"></p>
+            </p>
+            <p
+              className="bg-gradient-to-r from-[#900975] via-[#2b0340] to-[#020024] w-[57%] 
+            rounded-sm h-[5px] mt-4 ml-3 2xl:w-[67%]  "
+            ></p>
           </div>
-          <ul className="grid grid-cols-3 justify-between gap-5 mt-5 w-full">
-            <li className="bg-[#26262c] px-10 py-4 ">
+          <ul className="grid flex-wrap grid-cols-2 justify-between gap-4 2xl:grid-cols-3">
+            <li className="bg-[#26262c] px-10 py-5 ">
               <img src={Amplitude1} alt="" />
             </li>
-            <li className="bg-[#26262c] px-10 py-4">
+            <li className="bg-[#26262c] px-10 py-5">
               <img src={Profitwell} alt="" />
             </li>
-            <li className="bg-[#26262c] px-10 py-4  ">
+            <li className="bg-[#26262c] px-10 py-5  ">
               <img src={Tempo} alt="" />
             </li>
-            <li className="bg-[#26262c] px-10 py-4  ">
+            <li className="bg-[#26262c] px-10 py-5  ">
               <img src={Toast} alt="" />
             </li>
-            <li className="bg-[#26262c] px-10 py-4  ">
+            <li className="bg-[#26262c] px-10 py-5  ">
               <img src={Velocity} alt="" />
             </li>
-            <li className="bg-[#26262c] px-10 py-4  ">
+            <li className="bg-[#26262c] px-10 py-5  ">
               <img src={Sitemate} alt="" />
             </li>
           </ul>
-          <div className="text-white text-xl mt-7 m-8 flex flex-wrap items-center hover:w-52 cursor-pointer  ">
-            <p className="p-5 w-5 rounded-3xl z-1 decoration-clone  bg-gradient-to-r from-red-600 to-indigo-500 border-solid border-2 hover:px-16 duration-700 cursor-pointer	"></p>
-            <h1 className="absolute hover:px-16 duration-700 cursor-pointer">
-              VIEW ALL 200+ CLIENTS{" "}
-            </h1>
+          <div className="text-white text-xl mt-8 m-7 flex flex-wrap items-center hover:w-52  cursor-pointer  ">
+            <p className="p-3  bg-gradient-to-r from-red-600 to-indigo-500  hover:h-10 hover:w-5 rounded-full duration-700 cursor-pointer	"></p>
+            <p className=" absolute mx-5">VIEW ALL 200+ CLIENTS </p>
           </div>
         </div>
-        <div className=" relative z-10 ">
-          <div className="mb-5 flex flex-wrap justify-between gap-x-10">
+        <div className=" relative z-10  xl:">
+          <div className="mb-5 flex flex-wrap justify-end gap-x-10 ">
             <div>
               <label
                 for="name"
@@ -62,7 +66,8 @@ function Form() {
                 name="name"
                 id="name"
                 placeholder="Your Name"
-                className="w-full rounded-md border  bg-[#26262c] py-3 px-16 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                className="  px-10 2xl:px-12 py-3  rounded-md border  bg-[#26262c]  text-base font-medium
+                 text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md "
               />
             </div>
             <div>
@@ -77,11 +82,11 @@ function Form() {
                 name="phone"
                 id="phone"
                 placeholder="Your Phone"
-                className="w-full rounded-md border bg-[#26262c] py-3 px-16 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                className="  px-10 2xl:px-12 py-3 rounded-md border bg-[#26262c] text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
               />
             </div>
           </div>
-          <div className="mb-5 flex flex-wrap justify-between gap-x-10">
+          <div className="mb-5 flex  justify-between gap-x-10 ">
             <div>
               <label
                 for="email"
@@ -94,7 +99,7 @@ function Form() {
                 name="email"
                 id="email"
                 placeholder="example@domain.com"
-                className="w-full rounded-md border bg-[#26262c] py-3 px-16 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                className="  px-10 2xl:px-12 py-3 rounded-md border bg-[#26262c]  text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
               />
             </div>
             <div>
@@ -109,11 +114,11 @@ function Form() {
                 name="games"
                 id="games"
                 placeholder="Assassin's Creed"
-                className="w-full rounded-md border bg-[#26262c] py-3 px-16 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                className=" px-10 2xl:px-12 py-3 rounded-md border bg-[#26262c] text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
               />
             </div>
           </div>
-          <div className="mb-5 flex flex-wrap justify-between gap-x-10">
+          <div className="mb-5 flex  justify-between gap-x-10 ">
             <div>
               <label
                 for="subject"
@@ -126,7 +131,7 @@ function Form() {
                 name="Your Country"
                 id="Your Country"
                 placeholder="Assassin's Creed"
-                className="w-full rounded-md border bg-[#26262c] py-3 px-16 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                className=" px-10 2xl:px-12 py-3 rounded-md border bg-[#26262c] text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
               />
             </div>
             <div>
@@ -141,7 +146,7 @@ function Form() {
                 name="Language"
                 id="Language"
                 placeholder="Assassin's Creed"
-                className="w-full rounded-md border bg-[#26262c] py-3 px-16 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                className=" px-10 2xl:px-12 py-3 rounded-md border bg-[#26262c] text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
               />
             </div>
           </div>
@@ -157,7 +162,7 @@ function Form() {
               name="message"
               id="message"
               placeholder="Type your message"
-              className="w-full resize-none rounded-md border bg-[#26262c] py-3 px-16 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+              className="w-full resize-none rounded-md border bg-[#26262c] px-[16px] py-[12px] text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
             ></textarea>
           </div>
           <div>
