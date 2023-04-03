@@ -39,14 +39,14 @@ function Footer() {
         <Link />
         <Input />
       </div>
-      {/* <div className="w-[100%] h-[40px] bg-[#515050] grid grid-cols-2 lg:h-11">
+      <div className="w-[100%] h-[40px] bg-[#515050] grid grid-cols-2 lg:h-11">
         <p className="text-[16px] text-[#fff] mt-2 cursor-pointer lg: pl-6">
           Copyright 2022 Hostim. All Rights Reserved
         </p>
         <p className="text-[#fff] text-[12px] ml-[50px] mt-2 cursor-pointer lg:pl-[350px] text-base">
           Terms & Conditions | Privacy Policy
         </p>
-      </div> */}
+      </div>
     </div>
   );
 }

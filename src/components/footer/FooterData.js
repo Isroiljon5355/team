@@ -7,7 +7,6 @@ export const data = [
   },
   {
     id: 2,
-    title: "Quick Links",
     link: "About Us",
   },
   {
