@@ -13,18 +13,18 @@ function Form() {
   const greet = createContext(cart);
   return (
     <div>
-      <div className="flex flxe-wrap items-center justify-between bg-[#1E1E2C]  p-24 gap-0 md: ">
+      <div className="flex flxe-wrap items-center bg-[#1E1E2C]  md:p-24 gap-10 md:flex flex-wrap justify-center ">
         <div className="  ">
           <h1 className="text-[#fff] text-[40px] font-bold leading-loose ">
             Know About Updates
           </h1>
-          <div className=" flex   mb-12">
+          <div className=" relative flex  mb-12">
             <p className="text-[#fff]  text-2xl font-medium  ">
               Our Top Clients
             </p>
             <p
-              className="bg-gradient-to-r from-[#900975] via-[#2b0340] to-[#020024] w-[57%] 
-            rounded-sm h-[5px] mt-4 ml-3 2xl:w-[67%]  "
+              className=" absolute bg-gradient-to-r from-[#900975] via-[#2b0340] to-[#020024] w-[40%] 
+            rounded-sm h-[5px] mt-4  ml-[200px] 2xl:w-[57%] md:mx-50 "
             ></p>
           </div>
           <ul className="grid flex-wrap grid-cols-2 justify-between gap-4 2xl:grid-cols-3">
@@ -48,12 +48,15 @@ function Form() {
             </li>
           </ul>
           <div className="text-white text-xl mt-8 m-7 flex flex-wrap items-center hover:w-52  cursor-pointer  ">
-            <p className="p-3  bg-gradient-to-r from-red-600 to-indigo-500  hover:h-10 hover:w-5 rounded-full duration-700 cursor-pointer	"></p>
+            <p className="p-3 overflow-hidden   bg-gradient-to-r from-red-600 to-indigo-500  hover:px-10 hover:py-5 rounded-full duration-700 cursor-pointer	"></p>
             <p className=" absolute mx-5">VIEW ALL 200+ CLIENTS </p>
           </div>
         </div>
-        <div className=" relative z-10  xl:">
-          <div className="mb-5 flex flex-wrap justify-end gap-x-10 ">
+        <div className=" absolute right-0 top-[750px]  ">
+          <img src={Gmcontactbg} alt="" />
+        </div>
+        <div className=" relative z-10 ">
+          <div className="mb-5 md:flex flex-wrap justify-center  gap-x-10 ">
             <div>
               <label
                 for="name"
@@ -86,7 +89,7 @@ function Form() {
               />
             </div>
           </div>
-          <div className="mb-5 flex  justify-between gap-x-10 ">
+          <div className="mb-5 md:flex flex-wrap   justify-center  gap-x-10 ">
             <div>
               <label
                 for="email"
@@ -118,7 +121,7 @@ function Form() {
               />
             </div>
           </div>
-          <div className="mb-5 flex  justify-between gap-x-10 ">
+          <div className="mb-5 md:flex flex-wrap  gap-x-10 ">
             <div>
               <label
                 for="subject"
@@ -171,9 +174,6 @@ function Form() {
             </button>
           </div>
         </div>
-      </div>
-      <div className=" absolute right-0 top-0  ">
-        <img src={Gmcontactbg} alt="" />
       </div>
     </div>
   );
