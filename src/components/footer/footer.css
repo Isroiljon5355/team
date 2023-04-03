@@ -1,11 +1,11 @@
-p:hover {
+h4:hover {
   padding-left: 15px;
   transition: all 0.8s;
   cursor: pointer;
-  color: #0c0ca0;
+  color: #7a7acb;
 }
-p:hover::before {
-  color: #14146d;
+h4:hover::before {
+  color: #1a1a6f;
   position: absolute;
   margin-left: -16px;
   content: "//";

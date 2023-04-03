@@ -10,9 +10,9 @@ function Link() {
       {data.map((item) => {
         return (
           <div className="mt-5" key={item.id}>
-            <p className="text-[#fff] list-none leading-4" href={item.link}>
+            <h4 className="text-[#fff] list-none leading-4" href={item.link}>
               {item.title}
-            </p>
+            </h4>
           </div>
         );
       })}
