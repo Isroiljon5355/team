@@ -1,10 +1,11 @@
-a:hover {
+p:hover {
   padding-left: 15px;
   transition: all 0.8s;
   cursor: pointer;
+  color: #0c0ca0;
 }
-a:hover::before {
-  color: #0e0eee;
+p:hover::before {
+  color: #14146d;
   position: absolute;
   margin-left: -16px;
   content: "//";
