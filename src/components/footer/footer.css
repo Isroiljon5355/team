@@ -1,0 +1,33 @@
+h4:hover {
+  padding-left: 15px;
+  transition: all 0.8s;
+  cursor: pointer;
+  color: #7a7acb;
+}
+h4:hover::before {
+  color: #1a1a6f;
+  position: absolute;
+  margin-left: -16px;
+  content: "//";
+}
+
+.input {
+  border: 1px solid #555;
+  width: 300px;
+  height: 62px;
+  padding-right: 80px;
+  border-radius: 5px;
+}
+.item {
+  background: none;
+  /* padding-left: 62px; */
+}
+.hostim {
+  border: none;
+}
+button:hover {
+  background-image: linear-gradient(#a855f7, #ec4899);
+}
+.face:hover {
+  background-image: linear-gradient(#a855f7, #ec4899);
+}

@@ -23,7 +23,6 @@ function Cards() {
                     </div>
                 })}
             </div>
-            {/* linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)); */}
         </div>
     )
 }
