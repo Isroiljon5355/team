@@ -6,11 +6,8 @@ import Tempo from "../img/tempo.png";
 import Toast from "../img/toast.png";
 import Velocity from "../img/velocity.png";
 import Gmcontactbg from "../img/gm-contact-bg.png";
-import { createContext } from "react";
 
 function Form() {
-  const cart = "salom";
-  const greet = createContext(cart);
   return (
     <div>
       <div className="flex flxe-wrap items-center bg-[#1E1E2C]  md:p-24 gap-10 md:flex flex-wrap justify-center ">
