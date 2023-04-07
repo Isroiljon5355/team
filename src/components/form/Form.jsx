@@ -55,7 +55,7 @@ function Form() {
         <div className=" absolute right-0 top-[750px]  ">
           <img src={Gmcontactbg} alt="" />
         </div>
-        <div className=" relative z-10 ">
+        <div className=" relative z-999 ">
           <div className="mb-5 md:flex flex-wrap justify-center  gap-x-10 ">
             <div>
               <label
