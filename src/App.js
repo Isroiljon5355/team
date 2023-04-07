@@ -1,11 +1,9 @@
-import Form from "./components/form/Form";
 import React from "react";
-import "./index.css";
-import UseContect from "./components/form/greet/UseContect";
-import { data } from "./data";
-import { Context } from "./components/Cards/Context";
-import { GreetContext } from "./components/form/greet/GreetContext";
 import Card from "./components/Cards/Card";
+import { Context } from "./components/Cards/Context";
+import Form from "./components/form/Form";
+import { data } from "./data";
+import "./index.css";
 
 function App() {
   const cart = "salom";
@@ -13,8 +11,8 @@ function App() {
     <div className="App">
       <Context.Provider value={data}>
         <Card />
-        <Form />
       </Context.Provider>
+      <Form />
     </div>
   );
 }
