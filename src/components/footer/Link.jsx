@@ -1,5 +1,5 @@
 import React from "react";
-import { data } from "./FooterData";
+import { Linkdata } from "./FooterData";
 
 function Link() {
   return (
@@ -7,7 +7,7 @@ function Link() {
       <h1 className="text-[#fff] font-bold text-[18px]">Quick Links</h1>
       <hr className="w-12 h-1 mt-2" />
 
-      {data.map((item) => {
+      {Linkdata.map((item) => {
         return (
           <div className="mt-5" key={item.id}>
             <h4 className="text-[#fff] list-none leading-4">{item.title}</h4>
