@@ -3,7 +3,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 import Image from "../../gm-product-shape.png";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import "../Cards/Card.css";
+import "./Card.css";
 import { Context } from "./Context";
 
 const Card = () => {

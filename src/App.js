@@ -1,7 +1,7 @@
 import React from "react";
+import { textContext } from "./components/TextContext";
 import Cards from "./components/cards/Cards";
 import Container from "./components/container/Container";
-import { textContext } from "./components/TextContext";
 import data from "./components/data/containerData";
 import "./index.css";
 
