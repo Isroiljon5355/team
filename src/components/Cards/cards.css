@@ -2,21 +2,6 @@
   grid-template-columns: repeat(auto-fit, minmax(350px, auto));
 }
 
-/* .row {
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-  cursor: pointer;
-} */
-
-/* .row img {
-  width: 100%;
-  border-radius: 8px;
-  display: block;
-  transition: transform 0.5s;
-}
- */
-
 .row {
   background: linear-gradient(rgba(0, 0, 0, 0.1), #0400ff);
 }

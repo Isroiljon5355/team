@@ -1,6 +1,6 @@
 import React from 'react'
 import data from '../data/cardData'
-import "./card.css"
+import "./cards.css"
 import Text from './text/Text'
 
 function Cards() {
