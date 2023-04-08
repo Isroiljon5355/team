@@ -1,0 +1,9 @@
+.box h3::before {
+  padding: 0px 10px;
+  content: url("https://hostim-html.themetags.com/assets/img/shapes/gm-title-left.png");
+}
+
+.box h3::after {
+  content: url("https://hostim-html.themetags.com/assets/img/shapes/gm-title-right.png");
+  padding: 0px 10px;
+}

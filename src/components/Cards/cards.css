@@ -1,0 +1,41 @@
+.content {
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+}
+
+.row {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), #0400ff);
+}
+
+.inline:hover .row {
+  height: 100%;
+}
+
+.bottomhover {
+  position: relative;
+  margin: 10px;
+  color: #c1c1c7;
+}
+
+.bottomhover::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: rgb(226, 8, 152);
+  background: linear-gradient(
+    90deg,
+    rgba(226, 8, 152, 1) 47%,
+    rgba(15, 31, 145, 1) 100%
+  );
+  transition: all 0.5s;
+}
+
+.bottomhover:hover::before {
+  width: 100%;
+}
+
+.foot {
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+}
