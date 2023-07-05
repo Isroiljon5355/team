@@ -1,0 +1,23 @@
+export const data = [
+    {
+        id:1,
+        name:'tye',
+        surname:'juk',
+        hobby:'game',
+        adres:'fert'
+    },
+    {
+        id:2,
+        name:'ojdow',
+        surname:'John',
+        hobby:'game',
+        adres:'fert'
+    }, 
+    {
+        id:3,
+        name:'salom',
+        surname:'tom',
+        hobby:'game',
+        adres:'fert'
+    }
+]
